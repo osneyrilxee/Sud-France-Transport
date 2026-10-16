@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1F2A44">
+    <meta name="description"
+        content="Demande de location - Sud Transport France : location de véhicules utilitaires et de matériel professionnel.">
+
+    <title>Location - Sud Transport France | Transport & Logistique</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="../index.html" class="brand">
+            <span class="brand-logo">ST</span>
+            <span class="brand-text">
+                SUD TRANSPORT
+                <small>FRANCE · TRANSPORT & LOGISTIQUE</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"
+            aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+            <a href="./index.html">Accueil</a>
+            <a href="./mecano.html">Mécano</a>
+            <a href="./expedition.html">Expédition</a>
+            <a href="./livraison.html">Livraison</a>
+            <a href="./location.html" class="active">Location</a>
+            <a href="./services.html">Autres services</a>
+        </nav>
+
+        <a href="../index.html#contact" class="header-cta">Demander un devis ↗</a>
+    </header>
+
+    <main>
+        <section class="section" style="max-width: 800px; margin: 0 auto;">
+            <div class="section-heading" style="margin-bottom: 30px;">
+                <div>
+                    <span class="eyebrow">LOCATION DE VÉHICULES</span>
+                    <h2>Demande de <span>location.</span></h2>
+                </div>
+                <p>
+                    Dites-nous ce dont vous avez besoin, nous revenons vers vous avec un devis adapté.
+                </p>
+            </div>
+
+            <form class="contact-form"
+                style="background: white; padding: 35px; border: 1px solid var(--line); border-radius: 5px;">
+                <div class="form-row">
+                    <label>
+                        Nom et prénom *
+                        <input name="name" type="text" placeholder="Jean Dupont" autocomplete="name" required>
+                    </label>
+                    <label>
+                        Téléphone *
+                        <input name="phone" type="tel" placeholder="06 00 00 00 00" autocomplete="tel" required>
+                    </label>
+                </div>
+
+                <label>
+                    Véhicule / matériel souhaité *
+                    <input name="materiel" type="text" placeholder="Ex : Camionnette 12m³" required>
+                </label>
+
+                <div class="form-row">
+                    <label>
+                        Date de début *
+                        <input name="debut" type="date" required>
+                    </label>
+                    <label>
+                        Date de fin *
+                        <input name="fin" type="date" required>
+                    </label>
+                </div>
+
+                <label>
+                    Message (optionnel)
+                    <textarea name="message" rows="4"
+                        placeholder="Précisions sur votre besoin (kilométrage estimé, options...)"></textarea>
+                </label>
+
+                <button type="submit" class="button button-primary">
+                    Envoyer la demande ↗
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a href="../index.html" class="brand">
+            <span class="brand-logo">ST</span>
+            <span class="brand-text">
+                SUD TRANSPORT
+                <small>FRANCE · TRANSPORT & LOGISTIQUE</small>
+            </span>
+        </a>
+
+        <p>Fréjus, Provence-Alpes-Côte d'Azur</p>
+
+        <div class="footer-bottom">
+            <span>© <span data-year></span> Sud Transport France</span>
+            <a href="../index.html#contact">Nous contacter</a>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

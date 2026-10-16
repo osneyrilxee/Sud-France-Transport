@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1F2A44">
+  <meta name="description"
+    content="Sud Transport France : transport routier, expédition, livraison, mécanique et location.">
+
+  <title>Sud Transport France | Transport & Logistique</title>
+
+  <!-- Lien vers le fichier CSS global à la racine -->
+  <link rel="stylesheet" href="/src/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="./index.html" class="brand">
+      <span class="brand-logo">ST</span>
+      <span class="brand-text">
+        SUD TRANSPORT
+        <small>FRANCE · TRANSPORT & LOGISTIQUE</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"
+      aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+      <a href="./index.html" class="active">Accueil</a>
+      <a href="./mecano.html">Mécano</a>
+      <a href="./expedition.html">Expédition</a>
+      <a href="./livraison.html">Livraison</a>
+      <a href="./location.html">Location</a>
+      <a href="./services.html">Autres services</a>
+    </nav>
+
+    <a href="#contact" class="header-cta">Demander un devis ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">VOTRE PARTENAIRE TRANSPORT</span>
+
+        <h1>
+          LA ROUTE<br>
+          <span>NOUS RASSEMBLE.</span>
+        </h1>
+
+        <p>
+          Transport routier, expédition de marchandises, livraison
+          et services pour les professionnels. Une solution adaptée
+          à chacun de vos besoins.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="button button-primary">
+            Demander un devis ↗
+          </a>
+          <a href="#services" class="button button-outline">
+            Nos services
+          </a>
+        </div>
+
+        <div class="hero-note">
+          FIABILITÉ · ENGAGEMENT · PROXIMITÉ
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=85"
+          alt="Camion de transport routier">
+        <div class="hero-caption">
+          <span class="caption-icon">↗</span>
+          <div>
+            <strong>Sud Transport France</strong>
+            <small>Transport & logistique</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grille des services sur la page d'accueil (qui pointent vers src/pages/) -->
+    <section class="services section" id="services">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">NOS EXPERTISES</span>
+          <h2>Nos <span>services.</span></h2>
+        </div>
+
+        <p>
+          Découvrez nos services et choisissez la solution
+          qui correspond à votre activité.
+        </p>
+      </div>
+
+      <div class="service-grid">
+        <a href="./src/pages/mecano.html" class="service-card">
+          <span class="service-number">01 / ATELIER</span>
+          <span class="service-icon">🔧</span>
+          <h3>Mécano</h3>
+          <p>Entretien, diagnostic et réparation de véhicules.</p>
+          <span class="service-link">Découvrir le service ↗</span>
+        </a>
+
+        <a href="./src/pages/expedition.html" class="service-card">
+          <span class="service-number">02 / LOGISTIQUE</span>
+          <span class="service-icon">📦</span>
+          <h3>Expédition</h3>
+          <p>Des solutions pour organiser vos expéditions.</p>
+          <span class="service-link">Préparer un envoi ↗</span>
+        </a>
+
+        <a href="./src/pages/livraison.html" class="service-card">
+          <span class="service-number">03 / TRANSPORT</span>
+          <span class="service-icon">🚚</span>
+          <h3>Livraison</h3>
+          <p>Soumettez votre demande de transport de marchandises.</p>
+          <span class="service-link">Demander une livraison ↗</span>
+        </a>
+
+        <a href="./src/pages/location.html" class="service-card">
+          <span class="service-number">04 / LOCATION</span>
+          <span class="service-icon">🔑</span>
+          <h3>Location</h3>
+          <p>Demande de location de véhicules et de matériel.</p>
+          <span class="service-link">Découvrir la location ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="about section">
+      <div>
+        <span class="eyebrow">SUD TRANSPORT FRANCE</span>
+        <h2>Des solutions pensées pour vos <span>transports.</span></h2>
+      </div>
+
+      <p>
+        Vous avez un besoin en transport, une expédition à organiser
+        ou une demande de location ? Contactez-nous pour présenter
+        votre projet et obtenir une réponse adaptée.
+      </p>
+
+      <a href="#contact" class="button button-primary">
+        Parlons de votre projet ↗
+      </a>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-intro">
+        <span class="eyebrow">CONTACT</span>
+        <h2>Parlons de votre <span>projet.</span></h2>
+        <p>
+          Remplissez le formulaire pour préparer votre demande de devis.
+        </p>
+      </div>
+
+      <form id="contact-form" class="contact-form">
+        <div class="form-row">
+          <label>
+            Nom complet *
+            <input name="name" autocomplete="name" required>
+          </label>
+
+          <label>
+            E-mail *
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+            Téléphone
+            <input name="phone" type="tel" autocomplete="tel">
+          </label>
+
+          <label>
+            Service demandé *
+            <select name="service" required>
+              <option value="">Choisir un service</option>
+              <option value="Mécano">Mécano</option>
+              <option value="Expédition">Expédition</option>
+              <option value="Livraison">Livraison</option>
+              <option value="Location">Location</option>
+              <option value="Autre service">Autre service</option>
+            </select>
+          </label>
+        </div>
+
+        <label>
+          Votre demande *
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <button type="submit" class="button button-primary">
+          Préparer ma demande ↗
+        </button>
+
+        <p id="form-feedback" role="status" aria-live="polite"></p>
+        <p class="form-help">
+          Le formulaire nécessite une adresse e-mail configurée ou
+          un service backend pour transmettre les demandes.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="./index.html" class="brand">
+      <span class="brand-logo">ST</span>
+      <span class="brand-text">
+        SUD TRANSPORT
+        <small>FRANCE · TRANSPORT & LOGISTIQUE</small>
+      </span>
+    </a>
+
+    <p>Fréjus, Provence-Alpes-Côte d'Azur</p>
+
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Sud Transport France</span>
+      <a href="#contact">Nous contacter</a>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
